@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: rgb(100, 10, 66);
+        }
+
+        .s1 {
+            background-color: rgba(138, 16, 89, 0.633);
+            height: 500px;
+            width: 500px;
+            float: left;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: block;
+
+        }
+
+        form {
+            margin: 50px;
+
+        }
+
+        #i2 {
+            margin-right: 20px;
+        }
+
+        .s3 {
+
+            width: 10px;
+            margin-left: 5px;
+
+        }
+
+        label,
+        input {
+            margin-bottom: 10px;
+            width: 60%;
+            margin-left: 20px;
+        }
+
+        select {
+            margin-bottom: 10px;
+            margin-left: 20px;
+        }
+
+        .s2 {
+            padding-bottom: 90px;
+        }
+
+        #f1 {
+            padding-bottom: 10px;
+            text-align: center;
+            padding-top: 10px;
+            font-size: large;
+            font-weight: bold;
+            width: 300px
+        }
+    </style>
+</head>
+
+<body>
+    <div class="s1">
+        <form>
+            <table>
+                <label>Name:</label>
+                <input type="text" placeholder="your name" />
+                <br />
+                <label>Email:</label>
+                <input type="text" placeholder="your email" />
+                <br />
+                <label>Password:</label>
+                <input type="password" />
+                <br />
+                <label>Phone number:</label>
+                <input type="number" />
+                <br />
+                <label id="i2">Gender:</label>
+                Male:<input class="s3" type="radio" />
+                Female:<input class="s3" type="radio" />
+                Other:<input class="s3" type="radio" />
+                <br />
+                <label>Language</label>
+                <select>
+                    <option>Select Language</option>
+                </select>
+                <br />
+                <label>Zip code:</label>
+                <input />
+                <br />
+                <label>About:</label>
+                <input class="s2" type="text" placeholder="Write about yourself" />
+                <br />
+                <center><input id="f1" type="submit" value="Register" /></center>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
